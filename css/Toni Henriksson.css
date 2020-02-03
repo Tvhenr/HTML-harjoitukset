@@ -1,0 +1,148 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10.1.2020, 12:45:55
+    Author     : tonvi
+hi: #190934
+h2: #183BF0
+h3: #D4E4F7
+*/
+body {
+    background-color: #b3b3b3;
+}
+header,
+nav,
+div {
+    background-color: snow;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px 20px 20px;
+    font-family: Arial;
+    border-radius: 30px;
+}
+h1 {
+    font-family: Georgia;
+    color: #190934; 
+}
+h2 {
+    font-family: Georgia;
+    color: #183BF0;
+}
+h3 {
+    font-family: Georgia;
+    color: #D4E4F7;
+}
+table {
+    border: 3px #183BF0 solid;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px #D4E4F7 double;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;    
+}
+th {
+    background-color: #E4F1F6;
+    color: #190934;
+}
+img {
+    max-width: 100%;
+}
+figure {
+    margin-left: 0%;
+}
+
+.tyyli {
+    font-family: Georgia;
+    font-style: italic;
+    color: #183BF0;
+}
+.tausta {
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+}
+.taustaväri1 {
+    background-color: #D4E4F7;
+}
+.taustaväri2 {
+    background-color: #b3b3b3;
+}              
+a {
+    text-decoration: none;
+    color: #183BF0;
+    font-weight: bold;
+}
+a:visited {
+    color: #183BF0;
+}
+a:hover {
+   color: #D4E4F7;
+   text-decoration: underline;
+}
+.list {
+    border: 1px solid #183BF0;
+    display: inline-block;
+    padding: 0px;
+    height: 250px;
+    width: 250px;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.list h3 {
+    color: #183BF0;
+    background-color: #D4E4F7;
+    margin-top: 0px;
+    line-height: 2em;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+.list ul ul {
+    padding-left: 20px;
+}
+nav,
+header {
+    margin-bottom: 1em;
+    background-color: #D4E4F7;
+    padding: 10px 10px 10px 20px;
+}
+nav li {
+    display: inline-block;
+}
+nav li a {
+    background-color: #D4E4F7;
+    line-height: 2em;
+    display: block;
+    padding-left: 1em; 
+    padding-right: 1em;
+}
+nav li a:hover {
+    background-color: #183BF0;
+    color: #D4E4F7;
+    text-decoration: none;
+}
+nav ul {
+    padding: 0px;
+    margin: 0px; 
+}
+.images {
+    padding: 0px;
+    margin: 0px;
+}    
+.images li {
+    display: inline-block;
+    width: 20%;
+    margin-right: 2em; 
+    margin-bottom: 2em;
+}
+
+.images li img {
+    border-radius: 10px;
+    border: 3px #183BF0 solid;
+}
